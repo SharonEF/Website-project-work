@@ -1,7 +1,7 @@
 console.log("Hello world");
-const phoneNumber = +358465888781;
+const phoneNumber = "+358465888781";
 console.log(phoneNumber);
-if (false) {
+if (true) {
     console.log('phone number ${phoneNumber} is in international format.');
 } else {
     console.log('phone number ${phoneNumber} is not in International format.')
